@@ -10,6 +10,99 @@
     font-family: 'Antonio-Medium';
     src: url(../policies/Antonio/static/Antonio-Medium.ttf);
 }
+
+// custom planets colors //
+
+$mercury_color: #419EBB;
+$venus_color: #EDA249;
+$earth_color: #6D2ED5;
+$mars_color: #D14C32;
+$jupiter_color: #D83A34;
+$saturn_color: #CD5120;
+$uranus_color: #1EC1A2;
+$neptune_color: #2D68F0;
+
+// custom classes //
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+.planetIndex {
+    visibility: hidden;
+    display: none;
+}
+
+.mercury {
+    border-color: $mercury_color;
+    &:active {
+        background-color: $mercury_color;
+    }
+    &:hover {
+        background-color: #D8D8D830;
+    }
+}
+.venus {
+    border-color: $venus_color;
+    &:active {
+        background-color: $venus_color;
+    }
+    &:hover {
+        background-color: #D8D8D830;
+    }
+}
+.earth {
+    border-color: $earth_color;
+    background: $earth_color;
+    &:hover {
+        background-color: #D8D8D830;
+    }
+}
+.mars {
+    border-color: $mars_color;
+    &:active {
+        background-color: $mars_color;
+    }
+    &:hover {
+        background-color: #D8D8D830;
+    }
+}
+.jupiter {
+    border-color: $jupiter_color;
+    &:active {
+        background-color: $jupiter_color;
+    }
+    &:hover {
+        background-color: #D8D8D830;
+    }
+}
+.saturn {
+    border-color: $saturn_color;
+    &:active {
+        background-color: $saturn_color;
+    }
+    &:hover {
+        background-color: #D8D8D830;
+    }
+}
+.uranus {
+    border-color: $uranus_color;
+    &:active {
+        background-color: $uranus_color;
+    }
+    &:hover {
+        background-color: #D8D8D830;
+    }
+}
+.neptune {
+    border-color: $neptune_color;
+    &:active {
+        background-color: $neptune_color;
+    }
+    &:hover {
+        background-color: #D8D8D830;
+    }
+}
+
 html {
     font-size: 62.5%;
 }
@@ -25,11 +118,14 @@ body {
     background-image: url(../assets/background-stars.svg);
 }
 main {
+    min-width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 nav {
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -48,8 +144,15 @@ nav {
         display: flex;
         margin-right: 2rem;
         li {
-            margin-left: 1rem;
-            margin-right: 1rem;
+            margin-left: 1.5rem;
+            margin-right: 1.5rem;
+            &:hover {
+                cursor: pointer;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+            }
         }
     }
 }
@@ -60,16 +163,112 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    max-width: 80%;
-    min-width: 80%;
-    margin-top: 5rem;
+    min-width: 70%;
+    max-width: 70%;
+    margin-top: 8rem;
     &__img {
         align-items: center;
-        max-width: 50%;
-        min-width: 50%;
+        max-width: 60%;
+        min-width: 60%;
+        margin-top: -10rem;
+        img {
+            max-width: 40rem;
+            max-height: 40rem;
+        }
     }
     &__text {
-        max-width: 50%;
-        min-width: 50%;
+        max-width: 40%;
+        min-width: 40%;
+        h2 {
+            font-size: 8rem;
+            font-family: 'Antonio-Medium', sans-serif;
+            font-weight: lighter;
+            margin-bottom: 3rem;
+            margin-top: 0rem;
+        }
+        p {
+            max-width: 35rem;
+            line-height: 2.5rem;
+        }
+        .source {
+            align-items: center;
+            color: #838391;
+            font-family: 'Spartan-Regular', sans-serif;
+            a {
+                color: #838391;
+                font-family: 'Spartan-Bold', sans-serif;
+            }
+            i {
+                color: #838391;
+                margin-left: 1rem;
+                position: relative;
+                top: 0rem;
+            }
+        }
+        .planetStates {
+            display: flex;
+            flex-direction: column;
+            margin-top: 3rem;
+            button {
+                text-align: center;
+                text-transform: uppercase;
+                font-family: 'Spartan-bold', sans-serif;
+                font-size: 1.2rem;
+                text-align: left;
+                background-color: #070724;
+                color: white;
+                border-style: none;
+                padding: 2rem;
+                border: 0.1rem solid #419EBB;
+                margin-bottom: 1.5rem;
+                letter-spacing: 0.25rem;
+                &:hover {
+                    cursor: pointer;
+                    background-color: #d8d8d830;
+                }
+                .buttonNumber {
+                    color: rgba(255, 255, 255, 0.5);
+                    margin-right: 2rem;
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 0;
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: space-between;
+    max-width: 70%;
+    min-width: 70%;
+    .planetNumbers {
+        display: flex;
+        flex-direction: column;
+        min-width: 20%;
+        max-width: 20%;
+        border: 0.1rem solid #419EBB;
+        padding-top: 2rem;
+        padding-left: 1.5rem;
+        padding-bottom: 2rem;
+        &__title {
+            color: rgba(255, 255, 255, 0.5);
+            font-family: 'Spartan-Bold', sans-serif;
+            font-size: 1.1rem;
+            font-weight: lighter;
+            text-transform: uppercase;
+            letter-spacing: 0.25rem;
+        }
+        &__number {
+            font-family: 'Antonio-Medium', sans-serif;
+            font-size: 4rem;
+            text-transform: uppercase;
+        }
     }
 }
