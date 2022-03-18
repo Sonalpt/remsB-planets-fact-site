@@ -32,74 +32,188 @@ $neptune_color: #2D68F0;
     display: none;
 }
 
-.mercury {
+.Mercury {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Spartan-bold', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+    border-style: none;
+    padding: 2rem;
+    border: 0.1rem solid #419EBB;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.25rem;
     border-color: $mercury_color;
-    &:active {
-        background-color: $mercury_color;
-    }
+    background-color: $mercury_color;
     &:hover {
-        background-color: #D8D8D830;
+        cursor: default;
+    }
+    .buttonNumber {
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 2rem;
+        font-weight: lighter;
     }
 }
-.venus {
+.Venus {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Spartan-bold', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+    border-style: none;
+    padding: 2rem;
+    border: 0.1rem solid #419EBB;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.25rem;
     border-color: $venus_color;
-    &:active {
-        background-color: $venus_color;
-    }
+    background-color: $venus_color;
     &:hover {
-        background-color: #D8D8D830;
+        cursor: default;
+    }
+    .buttonNumber {
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 2rem;
+        font-weight: lighter;
     }
 }
-.earth {
+.Earth {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Spartan-bold', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+    border-style: none;
+    padding: 2rem;
+    border: 0.1rem solid #419EBB;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.25rem;
     border-color: $earth_color;
-    background: $earth_color;
+    background-color: $earth_color;
     &:hover {
-        background-color: #D8D8D830;
+        cursor: default;
+    }
+    .buttonNumber {
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 2rem;
+        font-weight: lighter;
     }
 }
-.mars {
+.Mars {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Spartan-bold', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+    border-style: none;
+    padding: 2rem;
+    border: 0.1rem solid #419EBB;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.25rem;
     border-color: $mars_color;
-    &:active {
-        background-color: $mars_color;
-    }
+    background-color: $mars_color;
     &:hover {
-        background-color: #D8D8D830;
+        cursor: default;
+    }
+    .buttonNumber {
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 2rem;
+        font-weight: lighter;
     }
 }
-.jupiter {
+.Jupiter {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Spartan-bold', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+    border-style: none;
+    padding: 2rem;
+    border: 0.1rem solid #419EBB;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.25rem;
     border-color: $jupiter_color;
-    &:active {
-        background-color: $jupiter_color;
-    }
+    background-color: $jupiter_color;
     &:hover {
-        background-color: #D8D8D830;
+        cursor: default;
+    }
+    .buttonNumber {
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 2rem;
+        font-weight: lighter;
     }
 }
-.saturn {
+.Saturn {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Spartan-bold', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+    border-style: none;
+    padding: 2rem;
+    border: 0.1rem solid #419EBB;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.25rem;
     border-color: $saturn_color;
-    &:active {
-        background-color: $saturn_color;
-    }
+    background-color: $saturn_color;
     &:hover {
-        background-color: #D8D8D830;
+        cursor: default;
+    }
+    .buttonNumber {
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 2rem;
+        font-weight: lighter;
     }
 }
-.uranus {
+.Uranus {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Spartan-bold', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+    border-style: none;
+    padding: 2rem;
+    border: 0.1rem solid #419EBB;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.25rem;
     border-color: $uranus_color;
-    &:active {
-        background-color: $uranus_color;
-    }
+    background-color: $uranus_color;
     &:hover {
-        background-color: #D8D8D830;
+        cursor: default;
+    }
+    .buttonNumber {
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 2rem;
+        font-weight: lighter;
     }
 }
-.neptune {
+.Neptune {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Spartan-bold', sans-serif;
+    font-size: 1.2rem;
+    text-align: left;
+    color: white;
+    border-style: none;
+    padding: 2rem;
+    border: 0.1rem solid #419EBB;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.25rem;
     border-color: $neptune_color;
-    &:active {
-        background-color: $neptune_color;
-    }
+    background-color: $neptune_color;
     &:hover {
-        background-color: #D8D8D830;
+        cursor: default;
+    }
+    .buttonNumber {
+        color: rgba(255, 255, 255, 0.5);
+        margin-right: 2rem;
+        font-weight: lighter;
     }
 }
 
@@ -132,6 +246,10 @@ nav {
     align-items: center;
     text-align: center;
     border-bottom: #97979736 solid 0.1rem;
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        justify-content: center;
+    }
     h1 {
         margin-left: 2rem;
         font-family: 'Antonio-Medium', sans-serif;
@@ -143,6 +261,10 @@ nav {
         list-style-type: none;
         display: flex;
         margin-right: 2rem;
+        @media (max-width: 1024px) {
+            display: flex;
+            justify-content: center;
+        }
         li {
             margin-left: 1.5rem;
             margin-right: 1.5rem;
@@ -166,19 +288,56 @@ nav {
     min-width: 70%;
     max-width: 70%;
     margin-top: 8rem;
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        min-width: 90%;
+        max-width: 90%;
+    }
     &__img {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         max-width: 60%;
         min-width: 60%;
         margin-top: -10rem;
-        img {
+        margin-right: 2rem;
+        @media (max-width: 1024px) {
+            margin-top: 0rem;
+            margin-bottom: 5rem;
+            min-width: 100%;
+            max-width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        .mainImage {
+            align-self: center;
             max-width: 40rem;
             max-height: 40rem;
+            padding: 0;
+            margin: 0;
+        }
+        .surfaceImage {
+            align-self: center;
+            z-index: 1;
+            position: relative;
+            bottom: 10rem;
+            max-width: 15rem;
+            max-height: 15rem;
         }
     }
     &__text {
         max-width: 40%;
         min-width: 40%;
+        @media (max-width: 1024px) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            max-width: none;
+            min-width: none;
+            min-width: 90%;
+            max-width: 90%;
+        }
         h2 {
             font-size: 8rem;
             font-family: 'Antonio-Medium', sans-serif;
@@ -189,6 +348,9 @@ nav {
         p {
             max-width: 35rem;
             line-height: 2.5rem;
+            @media (max-width: 768px) {
+                max-width: 30rem;
+            }
         }
         .source {
             align-items: center;
@@ -209,7 +371,12 @@ nav {
             display: flex;
             flex-direction: column;
             margin-top: 3rem;
-            button {
+            @media (max-width: 1024px) {
+                align-self: flex-start;
+                position: relative;
+                top: 9rem;
+            }
+            .buttonOverview, .buttonStructure, .buttonSurface {
                 text-align: center;
                 text-transform: uppercase;
                 font-family: 'Spartan-bold', sans-serif;
@@ -248,6 +415,9 @@ footer {
     justify-content: space-between;
     max-width: 70%;
     min-width: 70%;
+    @media (max-width: 1024px) {
+        margin-top: 10rem;
+    }
     .planetNumbers {
         display: flex;
         flex-direction: column;
@@ -257,6 +427,11 @@ footer {
         padding-top: 2rem;
         padding-left: 1.5rem;
         padding-bottom: 2rem;
+        @media (max-width: 1024px) {
+            padding-top: 1rem;
+            padding-left: 0.75rem;
+            padding-bottom: 1rem;
+            }
         &__title {
             color: rgba(255, 255, 255, 0.5);
             font-family: 'Spartan-Bold', sans-serif;
@@ -264,11 +439,17 @@ footer {
             font-weight: lighter;
             text-transform: uppercase;
             letter-spacing: 0.25rem;
+            @media (max-width: 1024px) {
+                font-size: 0.5rem;
+            }
         }
         &__number {
             font-family: 'Antonio-Medium', sans-serif;
             font-size: 4rem;
             text-transform: uppercase;
+            @media (max-width: 1024px) {
+                font-size: 1.6rem;
+            }
         }
     }
 }
