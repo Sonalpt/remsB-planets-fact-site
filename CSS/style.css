@@ -23,6 +23,156 @@
   display: none;
 }
 
+#hamburgerContent {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  z-index: 1;
+  min-width: 100%;
+  min-height: 30rem;
+  background-color: #070724;
+}
+
+#hamburgerContent .hamburgerPlanetLink {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  text-decoration: none;
+  color: white;
+  min-height: 5rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+#hamburgerContent .hamburgerPlanetLink .hamburgerPlanetColorMercury {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  border-radius: 300%;
+  background-color: #419EBB;
+  position: relative;
+  bottom: 0.25rem;
+  margin-right: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+#hamburgerContent .hamburgerPlanetLink .hamburgerPlanetColorVenus {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  border-radius: 300%;
+  background-color: #EDA249;
+  position: relative;
+  bottom: 0.25rem;
+  margin-right: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+#hamburgerContent .hamburgerPlanetLink .hamburgerPlanetColorEarth {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  border-radius: 300%;
+  background-color: #6D2ED5;
+  position: relative;
+  bottom: 0.25rem;
+  margin-right: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+#hamburgerContent .hamburgerPlanetLink .hamburgerPlanetColorMars {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  border-radius: 300%;
+  background-color: #D14C32;
+  position: relative;
+  bottom: 0.25rem;
+  margin-right: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+#hamburgerContent .hamburgerPlanetLink .hamburgerPlanetColorJupiter {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  border-radius: 300%;
+  background-color: #D83A34;
+  position: relative;
+  bottom: 0.25rem;
+  margin-right: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+#hamburgerContent .hamburgerPlanetLink .hamburgerPlanetColorSaturn {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  border-radius: 300%;
+  background-color: #CD5120;
+  position: relative;
+  bottom: 0.25rem;
+  margin-right: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+#hamburgerContent .hamburgerPlanetLink .hamburgerPlanetColorUranus {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  border-radius: 300%;
+  background-color: #1EC1A2;
+  position: relative;
+  bottom: 0.25rem;
+  margin-right: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+#hamburgerContent .hamburgerPlanetLink .hamburgerPlanetColorNeptune {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  max-height: 1.5rem;
+  max-width: 1.5rem;
+  border-radius: 300%;
+  background-color: #2D68F0;
+  position: relative;
+  bottom: 0.25rem;
+  margin-right: 1.5rem;
+  margin-left: 0.75rem;
+}
+
+#hamburgerContent .hamburgerPlanetLink .hamburgerPlanetName {
+  font-family: 'Spartan-Bold', sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.25rem;
+  font-size: 1.4rem;
+  max-width: 5rem;
+}
+
+#hamburgerContent .hamburgerPlanetLink i {
+  position: relative;
+  left: 60%;
+  color: #493a46;
+}
+
 .Mercury {
   text-align: center;
   text-transform: uppercase;

@@ -32,6 +32,135 @@ $neptune_color: #2D68F0;
     display: none;
 }
 
+// hamburger content //
+
+#hamburgerContent {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 30rem;
+    background-color: #070724;
+    .hamburgerPlanetLink {
+        display: flex;
+        flex-direction: row;
+        text-decoration: none;
+        color: white;
+        min-height: 5rem;
+        align-items: center;
+        text-align: center;
+        .hamburgerPlanetColorMercury {
+            min-height: 1.5rem;
+            min-width: 1.5rem;
+            max-height: 1.5rem;
+            max-width: 1.5rem;
+            border-radius: 300%;
+            background-color: $mercury_color;
+            position: relative;
+            bottom: 0.25rem;
+            margin-right: 1.5rem;
+            margin-left: 0.75rem;
+        }
+        .hamburgerPlanetColorVenus {
+            min-height: 1.5rem;
+            min-width: 1.5rem;
+            max-height: 1.5rem;
+            max-width: 1.5rem;
+            border-radius: 300%;
+            background-color: $venus_color;
+            position: relative;
+            bottom: 0.25rem;
+            margin-right: 1.5rem;
+            margin-left: 0.75rem;
+        }
+        .hamburgerPlanetColorEarth {
+            min-height: 1.5rem;
+            min-width: 1.5rem;
+            max-height: 1.5rem;
+            max-width: 1.5rem;
+            border-radius: 300%;
+            background-color: $earth_color;
+            position: relative;
+            bottom: 0.25rem;
+            margin-right: 1.5rem;
+            margin-left: 0.75rem;
+        }
+        .hamburgerPlanetColorMars {
+            min-height: 1.5rem;
+            min-width: 1.5rem;
+            max-height: 1.5rem;
+            max-width: 1.5rem;
+            border-radius: 300%;
+            background-color: $mars_color;
+            position: relative;
+            bottom: 0.25rem;
+            margin-right: 1.5rem;
+            margin-left: 0.75rem;
+        }
+        .hamburgerPlanetColorJupiter {
+            min-height: 1.5rem;
+            min-width: 1.5rem;
+            max-height: 1.5rem;
+            max-width: 1.5rem;
+            border-radius: 300%;
+            background-color: $jupiter_color;
+            position: relative;
+            bottom: 0.25rem;
+            margin-right: 1.5rem;
+            margin-left: 0.75rem;
+        }
+        .hamburgerPlanetColorSaturn {
+            min-height: 1.5rem;
+            min-width: 1.5rem;
+            max-height: 1.5rem;
+            max-width: 1.5rem;
+            border-radius: 300%;
+            background-color: $saturn_color;
+            position: relative;
+            bottom: 0.25rem;
+            margin-right: 1.5rem;
+            margin-left: 0.75rem;
+        }
+        .hamburgerPlanetColorUranus {
+            min-height: 1.5rem;
+            min-width: 1.5rem;
+            max-height: 1.5rem;
+            max-width: 1.5rem;
+            border-radius: 300%;
+            background-color: $uranus_color;
+            position: relative;
+            bottom: 0.25rem;
+            margin-right: 1.5rem;
+            margin-left: 0.75rem;
+        }
+        .hamburgerPlanetColorNeptune {
+            min-height: 1.5rem;
+            min-width: 1.5rem;
+            max-height: 1.5rem;
+            max-width: 1.5rem;
+            border-radius: 300%;
+            background-color: $neptune_color;
+            position: relative;
+            bottom: 0.25rem;
+            margin-right: 1.5rem;
+            margin-left: 0.75rem;
+        }
+        .hamburgerPlanetName {
+            font-family: 'Spartan-Bold', sans-serif;
+            font-weight: lighter;
+            letter-spacing: 0.25rem;
+            font-size: 1.4rem;
+            max-width: 5rem;
+        }
+        i {
+            position: relative;
+            left: 60%;
+            color: #493a46;
+        }
+    }
+}
+
 .Mercury {
     text-align: center;
     text-transform: uppercase;

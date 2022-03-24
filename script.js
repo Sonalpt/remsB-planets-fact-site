@@ -15,6 +15,7 @@ async function fetchData() {
 }
 
 async function displayFetch() {
+
     await fetchData();
     let planetDetails = planetsData[planetIndexParsed];
     console.log(planetDetails);
@@ -40,6 +41,19 @@ async function displayFetch() {
       </ul>
 
     </nav>
+
+    <div id="hamburgerContent" class="hidden">
+
+      <a class="hamburgerPlanetLink" href="./mercury.html"><div class="hamburgerPlanetColorMercury"></div><span class="hamburgerPlanetName">MERCURY</span><i class="fa-solid fa-angle-right"></i></a>
+      <a class="hamburgerPlanetLink" href="./venus.html"><div class="hamburgerPlanetColorVenus"></div><span class="hamburgerPlanetName">VENUS</span><i class="fa-solid fa-angle-right"></i></a>
+      <a class="hamburgerPlanetLink" href="./index.html"><div class="hamburgerPlanetColorEarth"></div><span class="hamburgerPlanetName">EARTH</span><i class="fa-solid fa-angle-right"></i></a>
+      <a class="hamburgerPlanetLink" href="./mars.html"><div class="hamburgerPlanetColorMars"></div><span class="hamburgerPlanetName">MARS</span><i class="fa-solid fa-angle-right"></i></a>
+      <a class="hamburgerPlanetLink" href="./jupiter.html"><div class="hamburgerPlanetColorJupiter"></div><span class="hamburgerPlanetName">JUPITER</span><i class="fa-solid fa-angle-right"></i></a>
+      <a class="hamburgerPlanetLink" href="./saturn.html"><div class="hamburgerPlanetColorSaturn"></div><span class="hamburgerPlanetName">SATURN</span><i class="fa-solid fa-angle-right"></i></a>
+      <a class="hamburgerPlanetLink" href="./uranus.html"><div class="hamburgerPlanetColorUranus"></div><span class="hamburgerPlanetName">URANUS</span><i class="fa-solid fa-angle-right"></i></a>
+      <a class="hamburgerPlanetLink" href="./neptune.html"><div class="hamburgerPlanetColorNeptune"></div><span class="hamburgerPlanetName">NEPTUNE</span><i class="fa-solid fa-angle-right"></i></a>
+
+    </div>
 
   </header>
 
@@ -163,6 +177,12 @@ async function displayFetch() {
 
         planetImage.innerHTML = ` <img class="mainImage" src="${planetDetails.images.planet}" alt="">
         <img class="surfaceImage" src="${planetDetails.images.geology}" alt=""> `
+    })
+
+    let hamburgerButton = document.querySelector(".fa-bars");
+    hamburgerButton.addEventListener("click", () => {
+      console.log("hamburger");
+      hamburgerContent.classList.toggle("hidden");
     })
 }
 
