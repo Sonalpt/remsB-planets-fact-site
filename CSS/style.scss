@@ -49,10 +49,28 @@ $neptune_color: #2D68F0;
     &:hover {
         cursor: default;
     }
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+        text-align: center;
+        border: none;
+        padding: 1rem;
+        min-width: 33.3%;
+        padding-top: 2rem;
+        margin-bottom: 0rem;
+        padding-bottom: 1.5rem;
+        background-color: #070724;
+        border-bottom: 0.3rem solid $mercury_color;
+        min-width: 25%;
+        max-width: 25%;
+    }
     .buttonNumber {
         color: rgba(255, 255, 255, 0.5);
         margin-right: 2rem;
         font-weight: lighter;
+        @media (max-width: 768px) {
+            display: none;
+            visibility: hidden;
+        }
     }
 }
 .Venus {
@@ -72,10 +90,28 @@ $neptune_color: #2D68F0;
     &:hover {
         cursor: default;
     }
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+        text-align: center;
+        border: none;
+        padding: 1rem;
+        min-width: 33.3%;
+        padding-top: 2rem;
+        margin-bottom: 0rem;
+        padding-bottom: 1.5rem;
+        background-color: #070724;
+        border-bottom: 0.3rem solid $venus_color;
+        min-width: 25%;
+        max-width: 25%;
+    }
     .buttonNumber {
         color: rgba(255, 255, 255, 0.5);
         margin-right: 2rem;
         font-weight: lighter;
+        @media (max-width: 768px) {
+            display: none;
+            visibility: hidden;
+        }
     }
 }
 .Earth {
@@ -95,10 +131,29 @@ $neptune_color: #2D68F0;
     &:hover {
         cursor: default;
     }
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+        text-align: center;
+        border: none;
+        padding: 1rem;
+        min-width: 33.3%;
+        padding-top: 2rem;
+        padding-left: 1rem;
+        margin-bottom: 0rem;
+        padding-bottom: 1.5rem;
+        background-color: #070724;
+        border-bottom: 0.3rem solid $earth_color;
+        min-width: 25%;
+        max-width: 25%;
+    }
     .buttonNumber {
         color: rgba(255, 255, 255, 0.5);
         margin-right: 2rem;
         font-weight: lighter;
+        @media (max-width: 768px) {
+            display: none;
+            visibility: hidden;
+        }
     }
 }
 .Mars {
@@ -118,10 +173,28 @@ $neptune_color: #2D68F0;
     &:hover {
         cursor: default;
     }
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+        text-align: center;
+        border: none;
+        padding: 1rem;
+        min-width: 33.3%;
+        padding-top: 2rem;
+        margin-bottom: 0rem;
+        padding-bottom: 1.5rem;
+        background-color: #070724;
+        border-bottom: 0.3rem solid $mars_color;
+        min-width: 25%;
+        max-width: 25%;
+    }
     .buttonNumber {
         color: rgba(255, 255, 255, 0.5);
         margin-right: 2rem;
         font-weight: lighter;
+        @media (max-width: 768px) {
+            display: none;
+            visibility: hidden;
+        }
     }
 }
 .Jupiter {
@@ -141,10 +214,28 @@ $neptune_color: #2D68F0;
     &:hover {
         cursor: default;
     }
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+        text-align: center;
+        border: none;
+        padding: 1rem;
+        min-width: 33.3%;
+        padding-top: 2rem;
+        margin-bottom: 0rem;
+        padding-bottom: 1.5rem;
+        background-color: #070724;
+        border-bottom: 0.3rem solid $jupiter_color;
+        min-width: 25%;
+        max-width: 25%;
+    }
     .buttonNumber {
         color: rgba(255, 255, 255, 0.5);
         margin-right: 2rem;
         font-weight: lighter;
+        @media (max-width: 768px) {
+            display: none;
+            visibility: hidden;
+        }
     }
 }
 .Saturn {
@@ -164,10 +255,28 @@ $neptune_color: #2D68F0;
     &:hover {
         cursor: default;
     }
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+        text-align: center;
+        border: none;
+        padding: 1rem;
+        min-width: 33.3%;
+        padding-top: 2rem;
+        margin-bottom: 0rem;
+        padding-bottom: 1.5rem;
+        background-color: #070724;
+        border-bottom: 0.3rem solid $saturn_color;
+        min-width: 25%;
+        max-width: 25%;
+    }
     .buttonNumber {
         color: rgba(255, 255, 255, 0.5);
         margin-right: 2rem;
         font-weight: lighter;
+        @media (max-width: 768px) {
+            display: none;
+            visibility: hidden;
+        }
     }
 }
 .Uranus {
@@ -187,10 +296,28 @@ $neptune_color: #2D68F0;
     &:hover {
         cursor: default;
     }
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+        text-align: center;
+        border: none;
+        padding: 1rem;
+        min-width: 33.3%;
+        padding-top: 2rem;
+        margin-bottom: 0rem;
+        padding-bottom: 1.5rem;
+        background-color: #070724;
+        border-bottom: 0.3rem solid $uranus_color;
+        min-width: 25%;
+        max-width: 25%;
+    }
     .buttonNumber {
         color: rgba(255, 255, 255, 0.5);
         margin-right: 2rem;
         font-weight: lighter;
+        @media (max-width: 768px) {
+            display: none;
+            visibility: hidden;
+        }
     }
 }
 .Neptune {
@@ -210,10 +337,28 @@ $neptune_color: #2D68F0;
     &:hover {
         cursor: default;
     }
+    @media (max-width: 768px) {
+        font-size: 0.9rem;
+        text-align: center;
+        border: none;
+        padding: 1rem;
+        min-width: 33.3%;
+        padding-top: 2rem;
+        margin-bottom: 0rem;
+        padding-bottom: 1.5rem;
+        background-color: #070724;
+        border-bottom: 0.3rem solid $neptune_color;
+        min-width: 25%;
+        max-width: 25%;
+    }
     .buttonNumber {
         color: rgba(255, 255, 255, 0.5);
         margin-right: 2rem;
         font-weight: lighter;
+        @media (max-width: 768px) {
+            display: none;
+            visibility: hidden;
+        }
     }
 }
 
@@ -246,9 +391,14 @@ nav {
     align-items: center;
     text-align: center;
     border-bottom: #97979736 solid 0.1rem;
-    @media (max-width: 1024px) {
+    @media (max-width: 1240px) {
         flex-direction: column;
         justify-content: center;
+    }
+    @media (max-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
     }
     h1 {
         margin-left: 2rem;
@@ -257,13 +407,33 @@ nav {
         margin-top: 1.5rem;
         font-weight: lighter;
     }
+    i {
+        align-self: center;
+        visibility: hidden;
+        display: none;
+        color: white;
+        width: 5rem;
+        height: 5rem;
+        @media (max-width: 768px) {
+            visibility: visible;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            position: relative;
+            top: 1.75rem;
+        }
+    }
     ul {
         list-style-type: none;
         display: flex;
         margin-right: 2rem;
-        @media (max-width: 1024px) {
+        @media (max-width: 1240px) {
             display: flex;
             justify-content: center;
+        }
+        @media (max-width: 768px) {
+            visibility: hidden;
+            display: none;
         }
         li {
             margin-left: 1.5rem;
@@ -288,10 +458,22 @@ nav {
     min-width: 70%;
     max-width: 70%;
     margin-top: 8rem;
-    @media (max-width: 1024px) {
+    @media (max-width: 1240px) {
         flex-direction: column;
         min-width: 90%;
         max-width: 90%;
+    }
+    @media (max-width: 768px) {
+        display: grid;
+        min-width: 100%;
+        max-width: 100%;
+        grid-template-columns: 100%;
+        grid-template-rows: 15% 42.5% 42.5%;
+        grid-template-areas: 
+        " buttons "
+        " planetImg "
+        " description "
+        ;
     }
     &__img {
         align-items: center;
@@ -302,7 +484,7 @@ nav {
         min-width: 60%;
         margin-top: -10rem;
         margin-right: 2rem;
-        @media (max-width: 1024px) {
+        @media (max-width: 1240px) {
             margin-top: 0rem;
             margin-bottom: 5rem;
             min-width: 100%;
@@ -310,12 +492,19 @@ nav {
             align-items: center;
             justify-content: center;
         }
+        @media (max-width: 768px) {
+            grid-area: planetImg;
+        }
         .mainImage {
             align-self: center;
             max-width: 40rem;
             max-height: 40rem;
             padding: 0;
             margin: 0;
+            @media (max-width: 768px) {
+                max-width: 25rem;
+                max-height: 25rem;
+            }
         }
         .surfaceImage {
             align-self: center;
@@ -329,7 +518,7 @@ nav {
     &__text {
         max-width: 40%;
         min-width: 40%;
-        @media (max-width: 1024px) {
+        @media (max-width: 1240px) {
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -338,18 +527,33 @@ nav {
             min-width: 90%;
             max-width: 90%;
         }
+        @media (max-width: 768px) {
+            grid-area: description;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            min-width: 100%;
+            max-width: 100%;
+            margin-top: 5rem;
+        }
         h2 {
             font-size: 8rem;
             font-family: 'Antonio-Medium', sans-serif;
             font-weight: lighter;
             margin-bottom: 3rem;
             margin-top: 0rem;
+            @media (max-width: 768px) {
+                font-size: 4rem;
+            }
         }
         p {
             max-width: 35rem;
             line-height: 2.5rem;
             @media (max-width: 768px) {
                 max-width: 30rem;
+                font-size: 1.2rem;
             }
         }
         .source {
@@ -371,17 +575,31 @@ nav {
             display: flex;
             flex-direction: column;
             margin-top: 3rem;
-            @media (max-width: 1024px) {
+            @media (max-width: 1240px) {
                 align-self: flex-start;
                 position: relative;
                 top: 9rem;
             }
+            @media (max-width: 768px) {
+                grid-area: buttons;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                position: absolute;
+                top: 7.5rem;
+                left: 50%;
+                transform: translateX(-50%);
+                align-self: center;
+                margin: 0;
+                width: 100%;
+                max-width: 100%;
+                border-bottom: 0.1rem solid #2D1128;
+            }
             .buttonOverview, .buttonStructure, .buttonSurface {
-                text-align: center;
+                text-align: left;
                 text-transform: uppercase;
                 font-family: 'Spartan-bold', sans-serif;
                 font-size: 1.2rem;
-                text-align: left;
                 background-color: #070724;
                 color: white;
                 border-style: none;
@@ -393,10 +611,24 @@ nav {
                     cursor: pointer;
                     background-color: #d8d8d830;
                 }
+                @media (max-width: 768px) {
+                    font-size: 0.9rem;
+                    text-align: center;
+                    border: none;
+                    padding: 1rem;
+                    min-width: 25%;
+                    max-width: 25%;
+                    padding-top: 2rem;
+                    margin-bottom: 0rem;
+                }
                 .buttonNumber {
                     color: rgba(255, 255, 255, 0.5);
                     margin-right: 2rem;
                     font-weight: lighter;
+                    @media (max-width: 768px) {
+                        display: none;
+                        visibility: hidden;
+                    }
                 }
             }
         }
@@ -415,8 +647,13 @@ footer {
     justify-content: space-between;
     max-width: 70%;
     min-width: 70%;
-    @media (max-width: 1024px) {
+    @media (max-width: 1240px) {
         margin-top: 10rem;
+    }
+    @media (max-width: 768px) {
+        flex-direction: column;
+        min-width: 100%;
+        max-width: 100%;
     }
     .planetNumbers {
         display: flex;
@@ -427,11 +664,18 @@ footer {
         padding-top: 2rem;
         padding-left: 1.5rem;
         padding-bottom: 2rem;
-        @media (max-width: 1024px) {
+        @media (max-width: 1240px) {
             padding-top: 1rem;
             padding-left: 0.75rem;
             padding-bottom: 1rem;
             }
+        @media (max-width: 768px) {
+            flex-direction: row;
+            justify-content: space-between;
+            min-width: 80%;
+            max-width: 80%;
+            margin-bottom: 2rem;
+        }
         &__title {
             color: rgba(255, 255, 255, 0.5);
             font-family: 'Spartan-Bold', sans-serif;
@@ -439,16 +683,27 @@ footer {
             font-weight: lighter;
             text-transform: uppercase;
             letter-spacing: 0.25rem;
-            @media (max-width: 1024px) {
+            @media (max-width: 1240px) {
                 font-size: 0.5rem;
+            }
+            @media (max-width: 768px) {
+                text-align: center;
+                align-self: center;
+                font-size: 0.8rem;
             }
         }
         &__number {
             font-family: 'Antonio-Medium', sans-serif;
             font-size: 4rem;
             text-transform: uppercase;
-            @media (max-width: 1024px) {
+            @media (max-width: 1240px) {
                 font-size: 1.6rem;
+            }
+            @media (max-width: 768px) {
+                text-align: center;
+                align-self: center;
+                font-size: 1.4rem;
+                margin-right: 1rem;
             }
         }
     }

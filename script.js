@@ -25,6 +25,7 @@ async function displayFetch() {
 
       <h1>THE PLANETS</h1>
 
+      <i class="fa-solid fa-bars"></i>
       <ul class="Planets">
 
         <li><a href="./mercury.html">MERCURY</a></li>
@@ -74,8 +75,8 @@ async function displayFetch() {
       <!-- Surface Geology Content End -->
       <div class="planetStates">
         <div id="buttonOverview"><span class="buttonNumber">01</span>Overview</div> 
-        <div id="buttonStructure" class="buttonStructure"><span class="buttonNumber">02</span>Internal Structure</div> 
-        <div id="buttonSurface" class="buttonSurface"><span class="buttonNumber">03</span>Surface Geology</div>
+        <div id="buttonStructure" class="buttonStructure"><span class="buttonNumber">02</span>Structure</div> 
+        <div id="buttonSurface" class="buttonSurface"><span class="buttonNumber">03</span>Geology</div>
       </div>
     </div>
      
